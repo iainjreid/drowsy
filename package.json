@@ -1,0 +1,23 @@
+{
+  "name": "drowsy",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/drowsy.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "integration"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iainreid820/drowsy/issues"
+  },
+  "homepage": "https://github.com/iainreid820/drowsy#readme"
+}
