@@ -20,6 +20,9 @@
     "url": "https://github.com/iainreid820/drowsy/issues"
   },
   "homepage": "https://github.com/iainreid820/drowsy#readme",
+  "optionalDependencies": {
+    "request": "^2.79.0"
+  },
   "devDependencies": {
     "eslint": "^3.9.1",
     "eslint-config-standard": "^6.2.1",
