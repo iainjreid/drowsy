@@ -4,6 +4,7 @@
   "description": "Lazy integrations tool for RESTful interfaces",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
