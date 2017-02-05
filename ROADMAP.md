@@ -12,4 +12,4 @@ This document is used to maintain a structured approach to planning future impro
 - Completion: Add remaining major HTTP verbs and support query parameters and body data hydration from the top down.
 
 ### Features
-- Allow users to use mainstream HTTP clients like Request, Superagent, etc.
+- [Complete] Allow users to use mainstream HTTP clients like Request, Superagent, etc.
