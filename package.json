@@ -1,7 +1,7 @@
 {
   "name": "drowsy",
   "version": "2.1.2",
-  "description": "Lazy integrations tool for RESTful interfaces",
+  "description": "A lazy integration tool for RESTful interfaces",
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint . --fix",
@@ -13,7 +13,9 @@
   },
   "keywords": [
     "api",
+    "apis",
     "rest",
+    "restful",
     "integration"
   ],
   "license": "MIT",
