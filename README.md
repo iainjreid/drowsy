@@ -36,16 +36,16 @@ github.getGists({
 });
 ```
 
-By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the default
-handler provided by Request. The handler returns a Promise that will, hopefully, resolve in a timely fashion with the
-first page of public Gists found on GitHub.
+By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the handler
+provided by Request. The handler returns a Promise that will, hopefully, resolve in a timely fashion with the first page
+of public Gists found on GitHub.
 
 Notice that a User-Agent header was supplied when invoking the method. This is something that GitHub like to have in all
 requests hitting their public API, and could be optimised if more than one request is hoping to be made. As suggested
 previously, boilerplate code is a huge no-no whilst using Drowsy, so instead of the above example try this.
 
 ```javascript
-const github = drowsy("https://api.github.com/", "request", {
+const github = drowsy('https://api.github.com/', {
   headers: {
     "User-Agent": "Octo-app"
   }
