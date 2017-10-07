@@ -55,6 +55,7 @@ github.getGists();
 ```
 
 Here we've defined a default list of headers for all future requests! Under the hood Drowsy has simply passed the
-configuration object that it recieved to the handler provided by Request, meaning that any of the parameters supported
+configuration object that it received to the handler provided by Request, meaning that any of the parameters supported
 by Request, are also support by Drowsy. For more information on which parameters the Request module accepts you should
 have a quick look at [their documentation](https://www.npmjs.com/package/request).
+

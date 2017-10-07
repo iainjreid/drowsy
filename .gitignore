@@ -1,7 +1,7 @@
 # Ignore all IDE generated paths
-.idea
-.vscode
+/.idea/
+/.vscode/
 
 # Ignore all Node.js and NPM related paths
-npm-debug.log
-node_modules
+/node_modules/
+/npm-debug.log
