@@ -34,5 +34,16 @@
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-promise": "^3.3.0",
     "eslint-plugin-standard": "^2.0.1"
+  },
+  "greenkeeper": {
+    "commitMessages": {
+      "initialBadge": "Add Greenkeeper badge",
+      "initialDependencies": "Update dependencies",
+      "initialBranches": "Whitelist greenkeeper branches",
+      "dependencyUpdate": "Update ${dependency} to version ${version}",
+      "devDependencyUpdate": "Update ${dependency} to version ${version}",
+      "dependencyPin": "Pin ${dependency} to ${oldVersion}",
+      "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
+    }
   }
 }
