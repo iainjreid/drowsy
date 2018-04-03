@@ -3,6 +3,7 @@
 A lazy integration tool for RESTful interfaces
 
 [![npm](https://img.shields.io/npm/v/drowsy.svg?style=flat-square)](https://www.npmjs.com/package/drowsy)
+![travis](https://img.shields.io/travis/iainreid820/drowsy/master.svg?style=flat-square)
 
 ### Module description
 
