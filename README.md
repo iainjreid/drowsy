@@ -1,10 +1,9 @@
 # Drowsy
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/iainreid820/drowsy.svg)](https://greenkeeper.io/)
-
 A lazy integration tool for RESTful interfaces
 
 [![npm](https://img.shields.io/npm/v/drowsy.svg?style=flat-square)](https://www.npmjs.com/package/drowsy)
+![greenkeeper](https://badges.greenkeeper.io/iainreid820/drowsy.svg)
 ![travis](https://img.shields.io/travis/iainreid820/drowsy/master.svg?style=flat-square)
 
 ### Module description
