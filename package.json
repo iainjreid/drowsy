@@ -7,6 +7,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
+    "prettier": "prettier --write \"{,!(node_modules)/}**/*.{js,json,md}\"",
     "lint": "eslint . --fix",
     "test": "echo \"Warning: no test specified\""
   },
@@ -33,7 +34,8 @@
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-promise": "^3.3.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.13.5"
   },
   "greenkeeper": {
     "commitMessages": {
@@ -45,5 +47,9 @@
       "dependencyPin": "Pin ${dependency} to ${oldVersion}",
       "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
     }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "proseWrap": "always"
   }
 }
