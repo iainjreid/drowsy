@@ -1,6 +1,6 @@
 {
   "name": "drowsy",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "A lazy integration tool for RESTful interfaces",
   "main": "lib/index.js",
   "engines": {
