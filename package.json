@@ -27,8 +27,8 @@
     "url": "https://github.com/iainreid820/drowsy/issues"
   },
   "homepage": "https://github.com/iainreid820/drowsy#readme",
-  "optionalDependencies": {
-    "request": "^2.79.0"
+  "dependencies": {
+    "needle": "^2.2.2"
   },
   "devDependencies": {
     "eslint": "^5.0.0",

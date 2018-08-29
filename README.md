@@ -37,7 +37,7 @@ github.getGists({
 ```
 
 By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the handler
-provided by Request. The handler returns a Promise that will, hopefully, resolve in a timely fashion with the first page
+provided by Needle. The handler returns a Promise that will, hopefully, resolve in a timely fashion with the first page
 of public Gists found on GitHub.
 
 Notice that a User-Agent header was supplied when invoking the method. This is something that GitHub like to have in all
@@ -55,7 +55,7 @@ github.getGists();
 ```
 
 Here we've defined a default list of headers for all future requests! Under the hood Drowsy has simply passed the
-configuration object that it received to the handler provided by Request, meaning that any of the parameters supported
-by Request, are also support by Drowsy. For more information on which parameters the Request module accepts you should
-have a quick look at [their documentation](https://www.npmjs.com/package/request).
+configuration object that it received to the handler provided by Needle, meaning that any of the parameters supported
+by Needle, are also support by Drowsy. For more information on which parameters the Needle module accepts you should
+have a quick look at [their documentation](https://www.npmjs.com/package/needle).
 
