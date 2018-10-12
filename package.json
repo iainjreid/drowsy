@@ -2,7 +2,8 @@
   "name": "drowsy",
   "version": "3.0.0",
   "description": "A lazy integration tool for RESTful interfaces",
-  "main": "dist/Drowsy.js",
+  "main": "lib/drowsy.js",
+  "types": "lib/drowsy.d.ts",
   "engines": {
     "node": ">=6.0.0"
   },
