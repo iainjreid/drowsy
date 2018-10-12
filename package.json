@@ -2,7 +2,7 @@
   "name": "drowsy",
   "version": "3.0.0",
   "description": "A lazy integration tool for RESTful interfaces",
-  "main": "lib/index.js",
+  "main": "dist/Drowsy.js",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -27,9 +27,6 @@
     "url": "https://github.com/iainreid820/drowsy/issues"
   },
   "homepage": "https://github.com/iainreid820/drowsy#readme",
-  "dependencies": {
-    "needle": "^2.2.2"
-  },
   "devDependencies": {
     "eslint": "^5.0.0",
     "eslint-config-prettier": "^3.0.0",

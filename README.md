@@ -45,7 +45,7 @@ requests hitting their public API, and could be optimised if more than one reque
 previously, boilerplate code is a huge no-no whilst using Drowsy, so instead of the above example try this.
 
 ```javascript
-const github = drowsy('https://api.github.com/', {
+const github = drowsy("https://api.github.com/", {
   headers: {
     "User-Agent": "Octo-app"
   }
@@ -55,7 +55,6 @@ github.getGists();
 ```
 
 Here we've defined a default list of headers for all future requests! Under the hood Drowsy has simply passed the
-configuration object that it received to the handler provided by Needle, meaning that any of the parameters supported
-by Needle, are also support by Drowsy. For more information on which parameters the Needle module accepts you should
-have a quick look at [their documentation](https://www.npmjs.com/package/needle).
-
+configuration object that it received to the handler provided by Needle, meaning that any of the parameters supported by
+Needle, are also support by Drowsy. For more information on which parameters the Needle module accepts you should have a
+quick look at [their documentation](https://www.npmjs.com/package/needle).
