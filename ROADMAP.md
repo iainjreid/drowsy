@@ -3,7 +3,7 @@
 ### Contents
 
 - [Information](#information)
-- [Active Goals](#active-goals)
+- [Development](#development)
 - [Features](#features)
 
 ### Information
@@ -12,9 +12,10 @@ This document is used to maintain a structured approach to planning future impro
 nature. To begin the process of requesting either a feature, or an improvement suggestion, please submit a GitHub issue
 outlining the details of any proposed changes. Pull requests welcome!
 
-### Active Goals
+### Development
 
-- Typescript compatability, and declaration of types.
+- [Complete] Typescript compatability, and declaration of types.
+- Add proper test coverage, and enable reporting.
 
 ### Features
 
