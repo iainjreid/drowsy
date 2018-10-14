@@ -16,7 +16,9 @@ outlining the details of any proposed changes. Pull requests welcome!
 
 - [Complete] Typescript compatability, and declaration of types.
 - Add proper test coverage, and enable reporting.
+- Improve the documentation in the README to outline the core functionality.
 
 ### Features
 
+- Add optional internal rate limiting for outgoing HTTP requests.
 - [Complete] Allow users to use mainstream HTTP clients like Request, Superagent, etc.
