@@ -3,9 +3,14 @@ language: node_js
 node_js:
   - "lts/*"
 
+after_install:
+  - npm install -g codecov
+
+after_script:
+  - codecov
+
 deploy:
   provider: npm
-  skip_cleanup: true
   email: $NPM_EMAIL
   api_key: $NPM_AUTH_TOKEN
   on:

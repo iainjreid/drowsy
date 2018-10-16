@@ -50,6 +50,10 @@
       "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
     }
   },
+  "jest": {
+    "coverageDirectory": "./coverage",
+    "collectCoverage": true
+  },
   "prettier": {
     "printWidth": 120,
     "proseWrap": "always"
