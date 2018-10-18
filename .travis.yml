@@ -3,7 +3,7 @@ language: node_js
 node_js:
   - "lts/*"
 
-after_install:
+before_install:
   - npm install -g codecov
 
 after_script:
