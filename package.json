@@ -8,9 +8,9 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "prettier": "prettier --write \"{,!(node_modules)/}**/*.{js,json,md}\"",
-    "lint": "eslint . --fix",
-    "test": "jest"
+    "prettier": "prettier --write *.{json,md} lib/*",
+    "lint": "eslint lib --fix",
+    "test": "jest lib"
   },
   "repository": {
     "type": "git",
