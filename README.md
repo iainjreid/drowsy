@@ -1,6 +1,6 @@
 # Drowsy
 
-A lazy integration tool for RESTful interfaces
+The lazy integration tool for RESTful interfaces
 
 [![npm](https://img.shields.io/npm/v/drowsy.svg?style=flat-square)](https://www.npmjs.com/package/drowsy)
 [![travis](https://img.shields.io/travis/iainreid820/drowsy/master.svg?style=flat-square)](https://travis-ci.org/iainreid820/drowsy)
@@ -40,3 +40,4 @@ github.getGists({
 By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the handler
 provided (in this case, Request). The handler returns a Promise that will, hopefully, resolve in a timely fashion with
 the first page of public Gists found on GitHub.
+
