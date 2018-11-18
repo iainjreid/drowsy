@@ -1,0 +1,18 @@
+site_name: Drowsy
+
+repo_url: https://github.com/iainreid820/drowsy
+repo_name: Github
+
+edit_uri: edit/master/docs/
+
+site_description: Usage details and indepth documentation for Drowsy
+site_author: Iain Reid
+
+nav:
+        - Home: README.md
+
+theme:
+        name: material
+
+dev_addr: 0.0.0.0:8000
+
