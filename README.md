@@ -2,9 +2,11 @@
   <img src="./.oratory/logo.svg" width="100%" />
 </p>
 
-<p align="center">
+<p align="center" style="font-weight=400;">
   The lazy integration tool for RESTful interfaces
+</p>
 
+<p>
   <a href="https://www.npmjs.com/package/drowsy">
     <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
   </a>
