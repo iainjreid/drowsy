@@ -1,7 +1,7 @@
 {
   "name": "drowsy",
   "version": "4.1.0",
-  "description": "A lazy integration tool for RESTful interfaces",
+  "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
   "types": "lib/drowsy.d.ts",
   "engines": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iainreid820/drowsy.git"
+    "url": "https://github.com/iainreid820/drowsy.git"
   },
   "keywords": [
     "api",
@@ -38,17 +38,6 @@
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.17.0"
-  },
-  "greenkeeper": {
-    "commitMessages": {
-      "initialBadge": "Add Greenkeeper badge",
-      "initialDependencies": "Update dependencies",
-      "initialBranches": "Whitelist greenkeeper branches",
-      "dependencyUpdate": "Update ${dependency} to version ${version}",
-      "devDependencyUpdate": "Update ${dependency} to version ${version}",
-      "dependencyPin": "Pin ${dependency} to ${oldVersion}",
-      "devDependencyPin": "Pin ${dependency} to ${oldVersion}"
-    }
   },
   "jest": {
     "coverageDirectory": "./coverage",
