@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./.oratory/logo.svg" width="100%" />
+  <img src="./.oratory/logo.svg" width="665px" />
 </p>
 
 <p align="center">
