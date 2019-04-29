@@ -1,13 +1,22 @@
 <p align="center">
-  <img src="./.oratory/logo.svg"/>
+  <img src="./.oratory/logo.svg" width="100%" />
 </p>
 
-The lazy integration tool for RESTful interfaces
+<p align="center">
+  The lazy integration tool for RESTful interfaces
 
-[![npm](https://img.shields.io/npm/v/drowsy.svg?style=flat-square)](https://www.npmjs.com/package/drowsy)
-[![travis](https://img.shields.io/travis/iainreid820/drowsy/master.svg?style=flat-square)](https://travis-ci.org/iainreid820/drowsy)
-[![codecov](https://img.shields.io/codecov/c/github/iainreid820/drowsy.svg?style=flat-square)](https://codecov.io/gh/iainreid820/drowsy)
-![depfu](https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square)
+  <a href="https://www.npmjs.com/package/drowsy">
+    <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
+  </a>
+  <a href="https://travis-ci.org/iainreid820/drowsy">
+    <img src="https://img.shields.io/travis/iainreid820/drowsy/master.svg?style=flat-square" />
+  </a>
+  <a href="https://codecov.io/gh/iainreid820/drowsy">
+    <img src="https://img.shields.io/codecov/c/github/iainreid820/drowsy.svg?style=flat-square" />
+  </a>
+
+  <img src="https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square" />
+</p>
 
 ### Module description
 
