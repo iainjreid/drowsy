@@ -29,6 +29,8 @@ request handling in small and large code bases alike.
 
 Drowsy just needs to know the hostname for the API you wish to consume, and off you go.
 
+> Featured on [Changelog](https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0)
+
 ### Before you get started
 
 Please note that this tool uses
