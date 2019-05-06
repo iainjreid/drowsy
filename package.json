@@ -14,20 +14,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iainreid820/drowsy.git"
+    "url": "https://git.io/fjcJd"
   },
   "keywords": [
     "api",
-    "apis",
+    "api-client",
+    "api-integration",
     "rest",
+    "rest-client",
+    "rest-integration",
     "restful",
-    "integration"
+    "restful-client",
+    "restful-integration"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iainreid820/drowsy/issues"
+    "url": "https://git.io/fjcJF"
   },
-  "homepage": "https://github.com/iainreid820/drowsy#readme",
+  "homepage": "https://git.io/fjcJb",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.2.0",

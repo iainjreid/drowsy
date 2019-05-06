@@ -51,4 +51,3 @@ github.getGists({
 By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the handler
 provided (in this case, Request). The handler returns a Promise that will, hopefully, resolve in a timely fashion with
 the first page of public Gists found on GitHub.
-
