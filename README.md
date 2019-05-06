@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  The lazy integration tool for RESTful interfaces
-</p>
-
-<p align="center">
   <a href="https://www.npmjs.com/package/drowsy">
     <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
   </a>
