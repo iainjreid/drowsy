@@ -12,6 +12,9 @@
   <a href="https://codecov.io/gh/iainreid820/drowsy">
     <img src="https://img.shields.io/codecov/c/github/iainreid820/drowsy.svg?style=flat-square" />
   </a>
+  <a href="https://lgtm.com/projects/g/iainreid820/drowsy">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/iainreid820/drowsy.svg?style=flat-square">
+  </a>
 
   <img src="https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square" />
 </p>
