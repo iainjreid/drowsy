@@ -15,13 +15,25 @@
   <a href="https://lgtm.com/projects/g/iainreid820/drowsy">
     <img src="https://img.shields.io/lgtm/grade/javascript/github/iainreid820/drowsy.svg?style=flat-square">
   </a>
-
-  <img src="https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square" />
+  <a href="#">
+    <img src="https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square" />
+  </a>
 </p>
 
+Drowsy is a universal REST client that makes integrating with services so wonderfully simple, you'll probably forget
+you're talking to an API after all. Think gRPC or SOAP, but for REST.
+
 <p align="center">
-  <a href="#description">Description</a> / <a href="#examples">Examples</a> / <a href="#license">License</a>
-</center>
+  <a href="#description">
+    <img src="https://img.shields.io/static/v1.svg?label=check%20out%20the&message=description&color=blue&style=flat-square&cacheSeconds=604800" />
+  </a>
+  <a href="#examples">
+    <img src="https://img.shields.io/static/v1.svg?label=see%20some&message=examples&color=green&style=flat-square&cacheSeconds=604800" />
+  </a>
+  <a href="#description">
+    <img src="https://img.shields.io/static/v1.svg?label=read%20the&message=license&color=red&style=flat-square&cacheSeconds=604800" />
+  </a>
+</p>
 
 ## Description
 
