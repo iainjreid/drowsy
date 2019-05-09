@@ -19,7 +19,11 @@
   <img src="https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square" />
 </p>
 
-## Module description
+<p align="center">
+  <a href="#description">Description</a> / <a href="#examples">Examples</a> / <a href="#license">License</a>
+</center>
+
+## Description
 
 This is the perfect tool for any prototype project or proof-of-concept application needing to integrate quickly with
 RESTful APIs, but it's also ideally suited as a convenience tool in larger projects that too rely on RESTful interfaces.
@@ -30,7 +34,7 @@ Drowsy just needs to know the hostname for the API you wish to consume, and off 
 
 > Featured on [Changelog](https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0)
 
-## Simple usage examples
+## Examples
 
 Below is a super simple example demonstrating how easy it can be to retrieve the first page of public Gists currently
 available on GitHub.
@@ -51,4 +55,4 @@ the first page of public Gists found on GitHub.
 
 ## License
 
-This _awesome_ project is released under the [MIT License](./LICENSE). Enjoy responsibly.
+This _awesome_ project is released under the [MIT License](./LICENSE). Enjoy responsibly ✌️
