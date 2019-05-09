@@ -30,12 +30,6 @@ Drowsy just needs to know the hostname for the API you wish to consume, and off 
 
 > Featured on [Changelog](https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0)
 
-### Before you get started
-
-Please note that this tool uses
-[Proxies](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Proxy) internally, so unless
-you're able to shim this functionality suitably, you will need to use Node.js version 6.0.0 or greater.
-
 ### Simple usage examples
 
 Below is a super simple example demonstrating how easy it can be to retrieve the first page of public Gists currently
@@ -54,3 +48,7 @@ github.getGists({
 By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the handler
 provided (in this case, Request). The handler returns a Promise that will, hopefully, resolve in a timely fashion with
 the first page of public Gists found on GitHub.
+
+## License
+
+This _awesome_ project is released under the [MIT License](./LICENSE). Enjoy.
