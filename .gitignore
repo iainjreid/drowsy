@@ -3,7 +3,9 @@
 /.vscode/
 
 # Ignore all Node.js and NPM related paths
-/node_modules/
-/npm-debug.log
+node_modules/
+npm-debug.log
 
-/coverage/
+# Ignore build output paths
+coverage
+packages/*/lib

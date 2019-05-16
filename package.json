@@ -11,23 +11,13 @@
     "prettier": "^1.17.1"
   },
   "jest": {
-    "preset": "ts-jest",
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "**/src/main/**/*.{js,ts}"
+      "**/src/main/**/*.js"
     ],
     "moduleNameMapper": {
-      "^@chaff/fui/([a-z]+)$": "<rootDir>/packages/fui/$1",
-      "^@chaff/fui-([a-z]+)$": "<rootDir>/packages/fui-$1/"
-    },
-    "globals": {
-      "ts-jest": {
-        "diagnostics": {
-          "ignoreCodes": [
-            "TS151001"
-          ]
-        }
-      }
+      "^@chaff/drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
+      "^@chaff/drowsy-([a-z]+)$": "<rootDir>/packages/drowsy-$1/"
     }
   },
   "prettier": {
