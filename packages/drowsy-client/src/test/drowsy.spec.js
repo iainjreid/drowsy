@@ -2,7 +2,7 @@
 
 "use strict";
 
-const drowsy = require("./drowsy");
+const drowsy = require("../main/drowsy");
 
 const handler = {
   get(url) {
