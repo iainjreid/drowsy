@@ -20,24 +20,11 @@
   </a>
 </p>
 
-Drowsy is a universal REST client that makes integrating with services so wonderfully simple, you'll probably forget
-you're talking to an API after all. Think gRPC or SOAP, but for REST.
-
 ## Description
 
-This is the perfect tool for any prototype project or proof-of-concept application needing to integrate quickly with
-RESTful APIs, but it's also ideally suited as a convenience tool in larger projects that too rely on RESTful interfaces.
-Gone are the days of defining an API client with a restricted set of methods, and gone too are the days of boilerplate
-request handling in small and large code bases alike.
-
-Drowsy just needs to know the hostname for the API you wish to consume, and off you go.
-
-> Featured on [Changelog](https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0)
-
-## Examples
-
-Below is a super simple example demonstrating how easy it can be to retrieve the first page of public Gists currently
-available on GitHub.
+Drowsy is a universal REST client that can make integrating with an API wonderfully simple, and it takes little to no
+time at all to setup. Here's a super small example of just how easy it can be to create an API client for virtually
+_any_ RESTful interface!
 
 ```javascript
 const github = drowsy(request, "https://api.github.com/");
@@ -49,9 +36,20 @@ github.getGists({
 });
 ```
 
-By calling the method `getGists` you're infact performing a GET request to the endpoint "/gists" through the handler
-provided (in this case, Request). The handler returns a Promise that will, hopefully, resolve in a timely fashion with
-the first page of public Gists found on GitHub.
+In this example we've targeted the GitHub API, and we're trying to pull down a list of Gists. With a little magic,
+thanks to Proxies, Drowsy is able to interpret function calls as a combination of request method, and pathname. So as
+you can guess from the above, we've just made a GET request to the GitHub API "/gists" endpoint.
+
+> Featured on [Changelog](https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0)
+
+## Usage
+
+Setting up a Drowsy client is really easy, pick your favourite request handler, and you're off. Given it's popularity,
+we're going to use Request in these examples.
+
+```javascript
+const apiClient = drowsy(request, "https://api.example.com")
+```
 
 ## License
 
