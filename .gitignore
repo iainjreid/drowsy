@@ -8,4 +8,4 @@ npm-debug.log
 
 # Ignore build output paths
 coverage
-packages/*/lib
+packages/drowsy-*/lib

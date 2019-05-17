@@ -1,7 +1,9 @@
 {
-  "name": "@chaff/drowsy",
+  "name": "drowsy",
   "version": "4.1.4",
   "description": "The lazy integration tool for RESTful interfaces",
+  "main": "lib/drowsy.js",
+  "types": "lib/drowsy.d.ts",
   "keywords": [
     "api",
     "api-client",
@@ -17,11 +19,15 @@
   "homepage": "https://github.com/iainreid820/drowsy#readme",
   "license": "MIT",
   "files": [
+    "lib",
     "client.d.ts",
-    "client.js"
+    "client.js",
+    "server.d.ts",
+    "server.js"
   ],
-  "dependencies": {
-    "@chaff/drowsy-client": "^4.1.4"
+  "optionalDependencies": {
+    "@chaff/drowsy-client": "^0.0.0",
+    "@chaff/drowsy-server": "^0.0.0"
   },
   "publishConfig": {
     "access": "public"
