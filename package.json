@@ -5,6 +5,11 @@
     "prepare": "lerna run prepare",
     "test": "jest"
   },
+  "dependencies": {
+    "drowsy": "./packages/drowsy",
+    "@chaff/drowsy-client": "./packages/drowsy-client",
+    "@chaff/drowsy-server": "./packages/drowsy-server"
+  },
   "devDependencies": {
     "jest": "^24.8.0",
     "lerna": "^3.14.1",
@@ -16,7 +21,7 @@
       "**/src/main/**/*.js"
     ],
     "moduleNameMapper": {
-      "^@chaff/drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
+      "^drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
       "^@chaff/drowsy-([a-z]+)$": "<rootDir>/packages/drowsy-$1/"
     }
   },

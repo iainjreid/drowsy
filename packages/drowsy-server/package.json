@@ -1,23 +1,23 @@
 {
-  "name": "@chaff/drowsy-client",
+  "name": "@chaff/drowsy-server",
   "version": "0.0.0",
-  "description": "Client library for Drowsy",
+  "description": "Server library for Drowsy",
   "keywords": [
     "api",
-    "api-client",
+    "api-server",
     "api-integration",
     "rest",
-    "rest-client",
+    "rest-server",
     "rest-integration",
     "restful",
-    "restful-client",
+    "restful-server",
     "restful-integration"
   ],
   "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
   "homepage": "https://github.com/iainreid820/drowsy#readme",
   "license": "MIT",
-  "main": "./lib/drowsy-client.js",
-  "types": "./lib/drowsy-client.d.ts",
+  "main": "./lib/drowsy-server.js",
+  "types": "./lib/drowsy-server.d.ts",
   "files": [
     "lib"
   ],
