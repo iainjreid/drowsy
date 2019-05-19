@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "drowsy": "./packages/drowsy",
-    "@chaff/drowsy-client": "./packages/drowsy-client",
-    "@chaff/drowsy-server": "./packages/drowsy-server"
+    "@chaff/drowsy-client": "file:./packages/drowsy-client",
+    "@chaff/drowsy-server": "file:./packages/drowsy-server"
   },
   "devDependencies": {
     "jest": "^24.8.0",
