@@ -6,17 +6,17 @@
   <a href="https://www.npmjs.com/package/drowsy">
     <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://travis-ci.org/iainreid820/drowsy">
-    <img src="https://img.shields.io/travis/iainreid820/drowsy/master.svg?style=flat-square" />
+  <a href="https://travis-ci.org/Chaffity/drowsy">
+    <img src="https://img.shields.io/travis/Chaffity/drowsy/master.svg?style=flat-square" />
   </a>
-  <a href="https://codecov.io/gh/iainreid820/drowsy">
-    <img src="https://img.shields.io/codecov/c/github/iainreid820/drowsy.svg?style=flat-square" />
+  <a href="https://codecov.io/gh/Chaffity/drowsy">
+    <img src="https://img.shields.io/codecov/c/github/Chaffity/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://lgtm.com/projects/g/iainreid820/drowsy">
-    <img src="https://img.shields.io/lgtm/grade/javascript/github/iainreid820/drowsy.svg?style=flat-square">
+  <a href="https://lgtm.com/projects/g/Chaffity/drowsy">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/Chaffity/drowsy.svg?style=flat-square">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/depfu/iainreid820/drowsy.svg?style=flat-square" />
+    <img src="https://img.shields.io/depfu/Chaffity/drowsy.svg?style=flat-square" />
   </a>
 </p>
 
