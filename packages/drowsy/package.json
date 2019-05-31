@@ -1,0 +1,45 @@
+{
+  "name": "drowsy",
+  "version": "4.1.4",
+  "description": "The lazy integration tool for RESTful interfaces",
+  "main": "lib/drowsy.js",
+  "types": "lib/drowsy.d.ts",
+  "keywords": [
+    "api",
+    "api-client",
+    "api-integration",
+    "rest",
+    "rest-client",
+    "rest-integration",
+    "restful",
+    "restful-client",
+    "restful-integration"
+  ],
+  "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
+  "homepage": "https://github.com/Chaffity/drowsy#readme",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "client.d.ts",
+    "client.js",
+    "server.d.ts",
+    "server.js"
+  ],
+  "optionalDependencies": {
+    "@chaff/drowsy-client": "^0.0.0",
+    "@chaff/drowsy-server": "^0.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chaffity/drowsy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Chaffity/drowsy/issues"
+  }
+}

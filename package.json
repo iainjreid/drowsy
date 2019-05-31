@@ -1,46 +1,31 @@
 {
-  "name": "drowsy",
-  "version": "4.1.4",
-  "description": "The lazy integration tool for RESTful interfaces",
-  "main": "lib/drowsy.js",
-  "types": "lib/drowsy.d.ts",
-  "engines": {
-    "node": ">=6.0.0"
-  },
+  "name": "drowsy-monorepo",
   "scripts": {
     "prettier": "prettier --write *.{json,md} lib/*",
-    "test": "jest lib"
+    "install": "lerna link",
+    "prepare": "lerna run prepare",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iainreid820/drowsy.git"
-  },
-  "keywords": [
-    "api",
-    "api-client",
-    "api-integration",
-    "rest",
-    "rest-client",
-    "rest-integration",
-    "restful",
-    "restful-client",
-    "restful-integration"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iainreid820/drowsy/issues"
-  },
-  "homepage": "https://github.com/iainreid820/drowsy#readme",
   "devDependencies": {
     "jest": "^24.8.0",
+    "lerna": "^3.14.1",
     "prettier": "^1.17.1"
   },
   "jest": {
-    "coverageDirectory": "./coverage",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./packages/drowsy/lib/drowsy.js",
+      "./packages/drowsy-*/src/main/**/*.js"
+    ],
+    "moduleNameMapper": {
+      "^drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
+      "^@chaff/drowsy-([a-z]+)$": "<rootDir>/packages/drowsy-$1/"
+    }
   },
   "prettier": {
     "printWidth": 120,
     "proseWrap": "always"
-  }
+  },
+  "license": "MIT",
+  "private": true
 }
