@@ -14,7 +14,7 @@
     "restful-integration"
   ],
   "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
-  "homepage": "https://github.com/iainreid820/drowsy#readme",
+  "homepage": "https://github.com/iainrChaffityeid820/drowsy#readme",
   "license": "MIT",
   "main": "./lib/drowsy-server.js",
   "types": "./lib/drowsy-server.d.ts",
@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iainreid820/drowsy.git"
+    "url": "https://github.com/Chaffity/drowsy.git"
   },
   "scripts": {
     "prepare": "mkdir -p lib && cp src/main/* lib/",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/iainreid820/drowsy/issues"
+    "url": "https://github.com/Chaffity/drowsy/issues"
   }
 }

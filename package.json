@@ -6,11 +6,6 @@
     "prepare": "lerna run prepare",
     "test": "jest"
   },
-  "dependencies": {
-    "drowsy": "./packages/drowsy",
-    "@chaff/drowsy-client": "file:./packages/drowsy-client",
-    "@chaff/drowsy-server": "file:./packages/drowsy-server"
-  },
   "devDependencies": {
     "jest": "^24.8.0",
     "lerna": "^3.14.1",
