@@ -1,5 +1,5 @@
 {
-  "name": "drowsy",
+  "name": "drowsy-monorepo",
   "scripts": {
     "prettier": "prettier --write *.{json,md} lib/*",
     "install": "lerna link",
@@ -14,7 +14,8 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "**/src/main/**/*.js"
+      "./packages/drowsy/lib/drowsy.js",
+      "./packages/drowsy-*/src/main/**/*.js"
     ],
     "moduleNameMapper": {
       "^drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
