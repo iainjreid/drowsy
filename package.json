@@ -1,4 +1,5 @@
 {
+  "name": "drowsy",
   "scripts": {
     "prettier": "prettier --write *.{json,md} lib/*",
     "install": "lerna link",
