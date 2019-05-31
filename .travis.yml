@@ -9,10 +9,12 @@ before_install:
 after_script:
   - codecov
 
+before_deploy: "echo '//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}' > .npmrc"
+
 deploy:
-  provider: npm
-  email: $NPM_EMAIL
-  api_key: $NPM_AUTH_TOKEN
+  provider: script
+  script: "npx lerna publish from-package --yes"
+  skip_cleanup: true
   on:
     branch: master
     tags: true
