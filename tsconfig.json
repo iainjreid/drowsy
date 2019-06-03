@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2015",
+    "module": "none",
+    "strict": true,
+    "lib": [
+      "dom",
+      "es2018"
+    ],
+    "declaration": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "paths": {
+      "drowsy": [
+        "./packages/drowsy"
+      ],
+      "@chaff/drowsy-client": [
+        "./packages/drowsy-client/lib/drowsy-client"
+      ],
+      "@chaff/drowsy-server": [
+        "./packages/drowsy-server/lib/drowsy-server"
+      ]
+    }
+  },
+  "exclude": [
+    "**/lib/**/*",
+    "**/*.spec.ts"
+  ]
+}

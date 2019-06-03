@@ -7,11 +7,17 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.4",
+    "axios": "^0.19.0",
     "jest": "^24.8.0",
     "lerna": "^3.14.1",
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
   },
   "jest": {
+    "preset": "ts-jest",
     "collectCoverage": true,
     "collectCoverageFrom": [
       "./packages/drowsy/lib/drowsy.js",
@@ -20,6 +26,15 @@
     "moduleNameMapper": {
       "^drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
       "^@chaff/drowsy-([a-z]+)$": "<rootDir>/packages/drowsy-$1/"
+    },
+    "globals": {
+      "ts-jest": {
+        "diagnostics": {
+          "ignoreCodes": [
+            "TS151001"
+          ]
+        }
+      }
     }
   },
   "prettier": {
