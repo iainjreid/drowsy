@@ -1,34 +1,31 @@
 {
-  "name": "@chaffity/drowsy",
-  "version": "4.1.8",
-  "description": "The lazy integration tool for RESTful interfaces",
-  "main": "lib/drowsy.js",
-  "types": "lib/drowsy.d.ts",
+  "name": "@chaff/drowsy-server-streams",
+  "version": "0.0.0",
+  "description": "Server streams library for Drowsy",
   "keywords": [
     "api",
-    "api-client",
+    "api-server",
     "api-integration",
     "rest",
-    "rest-client",
+    "rest-server",
     "rest-integration",
     "restful",
-    "restful-client",
+    "restful-server",
     "restful-integration"
   ],
   "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
-  "homepage": "https://github.com/Chaffity/drowsy#readme",
+  "homepage": "https://github.com/iainrChaffityeid820/drowsy#readme",
   "license": "MIT",
+  "main": "./lib/drowsy-server-streams.js",
+  "types": "./lib/drowsy-server-streams.d.ts",
   "files": [
-    "lib",
-    "client.d.ts",
-    "client.js",
-    "server.d.ts",
-    "server.js"
+    "lib"
   ],
-  "optionalDependencies": {
-    "@chaff/drowsy-client": "^0.0.1",
-    "@chaff/drowsy-server": "^0.0.1",
-    "@chaff/drowsy-server-streams": "^0.0.0"
+  "dependencies": {
+    "oboe": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/oboe": "^2.0.28"
   },
   "publishConfig": {
     "access": "public"
@@ -38,6 +35,7 @@
     "url": "https://github.com/Chaffity/drowsy.git"
   },
   "scripts": {
+    "prepare": "tsc -p .",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

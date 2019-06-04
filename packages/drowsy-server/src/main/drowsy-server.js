@@ -13,6 +13,7 @@ const handlerRef = Symbol('Handler Reference');
 module.exports = () => {
   const routes = {};
   const methods = {};
+  const middlewares = [];
 
   let server = http.createServer(async (req, res) => {
     const urlParts = req.url.split(/\//).filter(_ => _).map(_ => _.toLowerCase());
@@ -28,6 +29,10 @@ module.exports = () => {
     }
 
     if (handlerLookup && handlerLookup[handlerRef] && handlerLookup[handlerRef][methodRefs[req.method]]) {
+      for (let i = 0, n = middlewares.length; i < n; i++) {
+        middlewares[i](req, res);
+      }
+
       return handlerLookup[handlerRef][methodRefs[req.method]](req, res);
     } else {
       res.end("Not found");
@@ -47,6 +52,14 @@ module.exports = () => {
       handlerLookup[handlerRef] = handlerLookup[handlerRef] || {};
       handlerLookup[handlerRef][methodRefs[method]] = handler;
     };
+  }
+
+  methods.use = (middleware) => {
+    if (typeof middleware === "function") {
+      middlewares.push(middleware);
+    } else {
+      throw Error("Invalid middleware");
+    }
   }
 
   return Object.assign(server, methods);

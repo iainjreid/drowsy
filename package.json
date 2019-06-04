@@ -16,6 +16,12 @@
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
+  "optionalDependencies": {
+    "@chaff/drowsy-client": "./packages/drowsy-client",
+    "@chaff/drowsy-server": "./packages/drowsy-server",
+    "@chaff/drowsy-server-streams": "./packages/drowsy-server-streams",
+    "drowsy": "./packages/drowsy"
+  },
   "jest": {
     "preset": "ts-jest",
     "collectCoverage": true,
