@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./.oratory/logo.png" width="560px" />
+  <img src="https://cdn.jsdelivr.net/gh/chaffity/.github@master/assets/drowsy-logo.png" width="560px" />
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/codecov/c/github/Chaffity/drowsy.svg?style=flat-square" />
   </a>
   <a href="https://lgtm.com/projects/g/Chaffity/drowsy">
-    <img src="https://img.shields.io/lgtm/grade/javascript/github/Chaffity/drowsy.svg?style=flat-square">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/Chaffity/drowsy.svg?style=flat-square" />
   </a>
   <a href="#">
     <img src="https://img.shields.io/depfu/Chaffity/drowsy.svg?style=flat-square" />
