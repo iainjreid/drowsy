@@ -1,6 +1,6 @@
 {
   "name": "drowsy",
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
   "types": "lib/drowsy.d.ts",
@@ -27,7 +27,7 @@
   ],
   "optionalDependencies": {
     "@chaff/drowsy-client": "^0.0.1",
-    "@chaff/drowsy-server": "^0.0.1"
+    "@chaff/drowsy-server": "^0.0.2"
   },
   "publishConfig": {
     "access": "public"
