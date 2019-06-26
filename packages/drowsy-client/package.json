@@ -1,6 +1,6 @@
 {
   "name": "@chaffity/drowsy-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client library for Drowsy",
   "keywords": [
     "api",

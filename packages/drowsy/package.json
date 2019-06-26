@@ -1,6 +1,6 @@
 {
   "name": "@chaffity/drowsy",
-  "version": "4.1.7",
+  "version": "4.1.8",
   "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
   "types": "lib/drowsy.d.ts",
@@ -26,8 +26,8 @@
     "server.js"
   ],
   "optionalDependencies": {
-    "@chaffity/drowsy-client": "^0.0.1",
-    "@chaffity/drowsy-server": "^0.0.2"
+    "@chaffity/drowsy-client": "^0.0.2",
+    "@chaffity/drowsy-server": "^0.0.3"
   },
   "publishConfig": {
     "access": "public"
