@@ -1,6 +1,6 @@
 {
   "name": "drowsy",
-  "version": "4.1.6",
+  "version": "4.1.7",
   "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
   "types": "lib/drowsy.d.ts",
