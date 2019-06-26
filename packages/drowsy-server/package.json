@@ -1,5 +1,5 @@
 {
-  "name": "@chaff/drowsy-server",
+  "name": "@chaffity/drowsy-server",
   "version": "0.0.2",
   "description": "Server library for Drowsy",
   "keywords": [
@@ -14,7 +14,7 @@
     "restful-integration"
   ],
   "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
-  "homepage": "https://github.com/iainrChaffityeid820/drowsy#readme",
+  "homepage": "https://github.com/Chaffity/drowsy#readme",
   "license": "MIT",
   "main": "./lib/drowsy-server.js",
   "types": "./lib/drowsy-server.d.ts",

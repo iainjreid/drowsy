@@ -1,1 +1,1 @@
-module.exports = require("@chaff/drowsy-server");
+module.exports = require("@chaffity/drowsy-server");
