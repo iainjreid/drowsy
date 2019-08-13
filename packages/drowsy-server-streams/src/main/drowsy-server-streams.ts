@@ -17,7 +17,7 @@ function middleware(req: IncomingMessage, res: ServerResponse) {
       for (const key in fns) {
         const fn = fns[key];
 
-        fns[key] = (...args) => {
+        fns[key] = (...args: Parameters<oboe.CallbackSignature>) => {
           pending.push(fn(...args));
         }
       }

@@ -9,18 +9,13 @@
   "devDependencies": {
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
+    "@types/oboe": "^2.0.28",
     "axios": "^0.19.0",
     "jest": "^24.8.0",
     "lerna": "^3.16.4",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
-  },
-  "optionalDependencies": {
-    "@chaff/drowsy-client": "./packages/drowsy-client",
-    "@chaff/drowsy-server": "./packages/drowsy-server",
-    "@chaff/drowsy-server-streams": "./packages/drowsy-server-streams",
-    "drowsy": "./packages/drowsy"
   },
   "jest": {
     "preset": "ts-jest",

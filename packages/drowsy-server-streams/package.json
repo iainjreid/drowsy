@@ -24,9 +24,6 @@
   "dependencies": {
     "oboe": "^2.1.4"
   },
-  "devDependencies": {
-    "@types/oboe": "^2.0.28"
-  },
   "publishConfig": {
     "access": "public"
   },
