@@ -15,7 +15,7 @@
     "lerna": "^3.16.4",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   },
   "jest": {
     "preset": "ts-jest",
