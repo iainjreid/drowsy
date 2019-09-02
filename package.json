@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.17",
+    "@types/jest": "^24.0.18",
     "@types/node": "^12.7.3",
     "@types/oboe": "^2.0.28",
     "axios": "^0.19.0",
