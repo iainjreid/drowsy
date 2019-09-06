@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
 const http = require('http');
 
 const methodRefs = {};
 
-for (const method of ["GET", "POST", "PUT", "PATCH", "DELETE"]) {
+for (const method of ['GET', 'POST', 'PUT', 'PATCH', 'DELETE']) {
   methodRefs[method] = Symbol(`${method} Method Reference`);
 }
 
@@ -15,7 +15,7 @@ module.exports = () => {
   const methods = {};
   const middlewares = [];
 
-  let server = http.createServer(async (req, res) => {
+  let server = http.createServer((req, res) => {
     const urlParts = req.url.split(/\//).filter(_ => _).map(_ => _.toLowerCase());
 
     let handlerLookup = routes;
@@ -35,7 +35,7 @@ module.exports = () => {
 
       return handlerLookup[handlerRef][methodRefs[req.method]](req, res);
     } else {
-      res.end("Not found");
+      res.end('Not found');
     }
   });
 
@@ -55,10 +55,10 @@ module.exports = () => {
   }
 
   methods.use = (middleware) => {
-    if (typeof middleware === "function") {
+    if (typeof middleware === 'function') {
       middlewares.push(middleware);
     } else {
-      throw Error("Invalid middleware");
+      throw Error('Invalid middleware');
     }
   }
 

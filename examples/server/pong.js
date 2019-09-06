@@ -1,12 +1,12 @@
-"use strict";
+'use strict';
 
-const drowsy = require("drowsy");
-const server = require("drowsy/server");
+const drowsy = require('drowsy');
+const server = require('drowsy/server');
 
 const app = drowsy(server());
 
 app.getPing((req, res) => {
-  res.write("pong");
+  res.write('pong');
   res.end();
 });
 

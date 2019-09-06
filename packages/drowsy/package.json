@@ -27,8 +27,7 @@
   ],
   "optionalDependencies": {
     "@chaff/drowsy-client": "^0.0.1",
-    "@chaff/drowsy-server": "^0.0.1",
-    "@chaff/drowsy-server-streams": "^0.0.0"
+    "@chaff/drowsy-server": "^0.0.1"
   },
   "publishConfig": {
     "access": "public"
@@ -38,6 +37,7 @@
     "url": "https://github.com/Chaffity/drowsy.git"
   },
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
 function drowsy(handler, url, action) {
   return new Proxy(() => undefined, {
     apply: (obj, scope, args) => {
       switch (typeof action) {
-        case "string":
-        case "number":
+        case 'string':
+        case 'number':
           return handleRequest(handler, url, action, ...args);
 
         default:
@@ -15,11 +15,11 @@ function drowsy(handler, url, action) {
 
     get: (obj, prop) => {
       switch (typeof prop) {
-        case "string":
-        case "number":
+        case 'string':
+        case 'number':
           return handleLookup(handler, url, action, prop);
       }
-    }
+    },
   });
 }
 
@@ -31,8 +31,11 @@ function handleRequest(handler, url, action, ...args) {
   }
 }
 
-function handleLookup(handler, url, action, lookup) {
-  if (lookup.startsWith("$")) {
+function handleLookup(handler, url, _action, _lookup) {
+  let action = _action;
+  let lookup = _lookup;
+
+  if (lookup.startsWith('$')) {
     lookup = [lookup.substr(1)];
   } else {
     lookup = lookup.split(/(?=[A-Z])/).map(_ => _.toLowerCase());
@@ -42,7 +45,7 @@ function handleLookup(handler, url, action, lookup) {
     }
   }
 
-  return drowsy(handler, [url, ...lookup].join("/"), action);
+  return drowsy(handler, [url, ...lookup].join('/'), action);
 }
 
 module.exports = Object.assign(drowsy, { handleRequest, handleLookup });
