@@ -1,15 +1,16 @@
 declare namespace drowsy {
-  interface DrowsyInstance<T, U> {
+  interface DrowsyInstance<T, U, V = any> {
     (): U;
-    [lookup: string]: DrowsyInstance<T, U>;
-    [lookup: number]: DrowsyInstance<T, U>;
+    (config?: V): U
+    [lookup: string]: DrowsyInstance<T, U, V>;
+    [lookup: number]: DrowsyInstance<T, U, V>;
   }
 
   interface DrowsyBuilder {
-    <T, U>(handler: T, url: string, action?: keyof T): DrowsyInstance<T, U>;
+    <T, U, V = any>(handler: T, url: string, action?: keyof T): DrowsyInstance<T, U>;
 
-    handleLookup<T, U>(action: keyof T, url: string, handler: T, lookup: any): DrowsyInstance<T, U>;
-    handleRequest<T, U>(action: keyof T, url: any, handler: T, args: any): U;
+    handleLookup<T, U, V = any>(action: keyof T, url: string, handler: T, lookup: any): DrowsyInstance<T, U, V>;
+    handleRequest<T, U, V = any>(action: keyof T, url: any, handler: T, args: any): U;
   }
 }
 
