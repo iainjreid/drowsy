@@ -1,7 +1,8 @@
 declare namespace drowsy {
   interface DrowsyInstance<T, U, V = any> {
     (): U;
-    (config?: V): U
+    (config?: V): U;
+    (...args: any[]): U;
     [lookup: string]: DrowsyInstance<T, U, V>;
     [lookup: number]: DrowsyInstance<T, U, V>;
   }
