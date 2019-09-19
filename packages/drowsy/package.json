@@ -26,8 +26,8 @@
     "server.js"
   ],
   "optionalDependencies": {
-    "@chaff/drowsy-client": "^0.0.1",
-    "@chaff/drowsy-server": "^0.0.1"
+    "@chaffity/drowsy-client": "^0.0.2",
+    "@chaffity/drowsy-server": "^0.0.4"
   },
   "publishConfig": {
     "access": "public"
