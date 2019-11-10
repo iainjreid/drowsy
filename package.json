@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@emphori/eslint-config": "^0.1.7",
-    "@types/jest": "^24.0.21",
+    "@types/jest": "^24.0.22",
     "@types/node": "^12.12.7",
     "@types/oboe": "^2.0.28",
     "axios": "^0.19.0",
