@@ -8,17 +8,11 @@
   <a href="https://www.npmjs.com/package/drowsy">
     <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://travis-ci.org/Emphori/drowsy">
-    <img src="https://img.shields.io/travis/Emphori/drowsy/master.svg?style=flat-square" />
-  </a>
   <a href="https://codecov.io/gh/Emphori/drowsy">
     <img src="https://img.shields.io/codecov/c/github/Emphori/drowsy.svg?style=flat-square" />
   </a>
   <a href="https://lgtm.com/projects/g/Emphori/drowsy">
     <img src="https://img.shields.io/lgtm/grade/javascript/github/Emphori/drowsy.svg?style=flat-square" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/depfu/Emphori/drowsy.svg?style=flat-square" />
   </a>
 </p>
 
