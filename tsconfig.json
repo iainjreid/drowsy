@@ -15,10 +15,10 @@
       "drowsy": [
         "./packages/drowsy"
       ],
-      "@chaffity/drowsy-client": [
+      "@emphori/drowsy-client": [
         "./packages/drowsy-client/lib/drowsy-client"
       ],
-      "@chaffity/drowsy-server": [
+      "@emphori/drowsy-server": [
         "./packages/drowsy-server/lib/drowsy-server"
       ]
     }

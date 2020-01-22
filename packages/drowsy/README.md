@@ -1,22 +1,22 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/chaffity/.github@master/assets/drowsy-logo.png" width="560px" />
+  <img src="https://cdn.jsdelivr.net/gh/Emphori/.github@master/assets/drowsy-logo.png" width="560px" />
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/drowsy">
     <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://travis-ci.org/Chaffity/drowsy">
-    <img src="https://img.shields.io/travis/Chaffity/drowsy/master.svg?style=flat-square" />
+  <a href="https://travis-ci.org/Emphori/drowsy">
+    <img src="https://img.shields.io/travis/Emphori/drowsy/master.svg?style=flat-square" />
   </a>
-  <a href="https://codecov.io/gh/Chaffity/drowsy">
-    <img src="https://img.shields.io/codecov/c/github/Chaffity/drowsy.svg?style=flat-square" />
+  <a href="https://codecov.io/gh/Emphori/drowsy">
+    <img src="https://img.shields.io/codecov/c/github/Emphori/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://lgtm.com/projects/g/Chaffity/drowsy">
-    <img src="https://img.shields.io/lgtm/grade/javascript/github/Chaffity/drowsy.svg?style=flat-square" />
+  <a href="https://lgtm.com/projects/g/Emphori/drowsy">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/Emphori/drowsy.svg?style=flat-square" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/depfu/Chaffity/drowsy.svg?style=flat-square" />
+    <img src="https://img.shields.io/depfu/Emphori/drowsy.svg?style=flat-square" />
   </a>
 </p>
 

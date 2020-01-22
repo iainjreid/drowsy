@@ -30,7 +30,7 @@
     ],
     "moduleNameMapper": {
       "^drowsy/([a-z]+)$": "<rootDir>/packages/drowsy/$1",
-      "^@chaffity/drowsy-([a-z]+)$": "<rootDir>/packages/drowsy-$1/"
+      "^@emphori/drowsy-([a-z]+)$": "<rootDir>/packages/drowsy-$1/"
     },
     "globals": {
       "ts-jest": {

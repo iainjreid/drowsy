@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('@chaffity/drowsy-client');
+module.exports = require('@emphori/drowsy-client');

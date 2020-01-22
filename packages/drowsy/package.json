@@ -1,5 +1,5 @@
 {
-  "name": "@chaffity/drowsy",
+  "name": "@emphori/drowsy",
   "version": "4.1.10",
   "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
@@ -15,8 +15,8 @@
     "restful-client",
     "restful-integration"
   ],
-  "author": "Iain Reid <iainreid382@gmail.com> (https://chaff.land)",
-  "homepage": "https://github.com/Chaffity/drowsy#readme",
+  "author": "Emphori (https://emphori.studio)",
+  "homepage": "https://github.com/Emphori/drowsy#readme",
   "license": "MIT",
   "files": [
     "lib",
@@ -26,21 +26,21 @@
     "server.js"
   ],
   "optionalDependencies": {
-    "@chaffity/drowsy-client": "^0.0.2",
-    "@chaffity/drowsy-server": "^0.0.4"
+    "@emphori/drowsy-client": "^0.0.2",
+    "@emphori/drowsy-server": "^0.0.4"
   },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chaffity/drowsy.git"
+    "url": "https://github.com/Emphori/drowsy.git"
   },
   "scripts": {
     "lint": "eslint .",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/Chaffity/drowsy/issues"
+    "url": "https://github.com/Emphori/drowsy/issues"
   }
 }
