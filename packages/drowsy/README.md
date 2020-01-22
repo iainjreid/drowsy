@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/Emphori/.github@master/assets/drowsy-logo.png" width="560px" />
+  <a href="#">
+    <img src="https://cdn.jsdelivr.net/gh/emphori/drowsy@master/.github/logo-175x122@2x.png" width="175px" />
+  </a>
 </p>
 
 <p align="center">
