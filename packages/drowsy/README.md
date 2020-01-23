@@ -63,10 +63,9 @@ UsersAPI.post[userId](options[, cb])
 These function calls are largely identical for the client and server, only when
 there are placeholders in the URL will the Drowsy syntax differ.
 
-> Featured on [Changelog](1.1)
+> Featured on [Changelog][1.1]
 
-[1.1]:
-  https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0
+[1.1]: https://changelog.com/news/drowsy-the-laziest-rest-client-youll-ever-see-wwn0
 
 ## Examples
 
@@ -122,6 +121,6 @@ know _all_ of them too, here's a breakdown of what would and wouldn't work.
 
 ## License
 
-This project is released under the [MIT License](4.1). Enjoy responsibly ✌️
+This project is released under the [MIT License][4.1]. Enjoy responsibly ✌️
 
 [4.1]: ./LICENSE
