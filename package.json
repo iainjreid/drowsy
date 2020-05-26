@@ -1,6 +1,5 @@
 {
   "name": "@emphori/drowsy",
-  "version": "4.1.10",
   "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
   "types": "lib/drowsy.d.ts",
