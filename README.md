@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/drowsy">
-    <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
+    <img src="https://img.shields.io/npm/v/@emphori/drowsy.svg?style=flat-square" />
   </a>
   <a href="https://codecov.io/gh/Emphori/drowsy">
     <img src="https://img.shields.io/codecov/c/github/Emphori/drowsy.svg?style=flat-square" />
