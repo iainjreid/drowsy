@@ -21,9 +21,6 @@
     "lib/drowsy.js",
     "lib/drowsy.d.ts"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "@emphori/eslint-config": "^0.1.7",
     "eslint": "^6.6.0",
