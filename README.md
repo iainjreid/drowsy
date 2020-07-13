@@ -1,18 +1,18 @@
 <p align="center">
   <a href="#">
-    <img src="https://cdn.jsdelivr.net/gh/emphori/drowsy@master/.github/logo-175x122@2x.png" width="175px" />
+    <img src="https://cdn.jsdelivr.net/gh/iainjreid/drowsy@master/.github/logo-175x122@2x.png" width="175px" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/drowsy">
-    <img src="https://img.shields.io/npm/v/@emphori/drowsy.svg?style=flat-square" />
+    <img src="https://img.shields.io/npm/v/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://codecov.io/gh/Emphori/drowsy">
-    <img src="https://img.shields.io/codecov/c/github/Emphori/drowsy.svg?style=flat-square" />
+  <a href="https://codecov.io/gh/iainjreid/drowsy">
+    <img src="https://img.shields.io/codecov/c/github/iainjreid/drowsy.svg?style=flat-square" />
   </a>
-  <a href="https://lgtm.com/projects/g/Emphori/drowsy">
-    <img src="https://img.shields.io/lgtm/grade/javascript/github/Emphori/drowsy.svg?style=flat-square" />
+  <a href="https://lgtm.com/projects/g/iainjreid/drowsy">
+    <img src="https://img.shields.io/lgtm/grade/javascript/github/iainjreid/drowsy.svg?style=flat-square" />
   </a>
 </p>
 

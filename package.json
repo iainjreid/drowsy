@@ -1,5 +1,5 @@
 {
-  "name": "@emphori/drowsy",
+  "name": "drowsy",
   "description": "The lazy integration tool for RESTful interfaces",
   "main": "lib/drowsy.js",
   "types": "lib/drowsy.d.ts",
@@ -14,8 +14,8 @@
     "restful-client",
     "restful-integration"
   ],
-  "author": "Emphori (https://emphori.co)",
-  "homepage": "https://github.com/Emphori/drowsy#readme",
+  "author": "Iain Reid (https://chaff.land)",
+  "homepage": "https://github.com/iainjreid/drowsy#readme",
   "license": "MIT",
   "files": [
     "lib/drowsy.js",
@@ -34,13 +34,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Emphori/drowsy.git"
+    "url": "https://github.com/iainjreid/drowsy.git"
   },
   "scripts": {
     "lint": "eslint .",
     "test": "jest"
   },
   "bugs": {
-    "url": "https://github.com/Emphori/drowsy/issues"
+    "url": "https://github.com/iainjreid/drowsy/issues"
   }
 }
