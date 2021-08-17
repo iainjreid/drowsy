@@ -66,7 +66,7 @@ github.getGists({
 });
 ```
 
-By calling the method `getGists` you're infact performing a GET request to the
+By calling the method `getGists` you're in fact performing a GET request to the
 endpoint "/gists" through the handler provided (in this case, Request). The
 handler returns a Promise that will, hopefully, resolve in a timely fashion with
 the first page of public Gists found on GitHub.
@@ -89,7 +89,7 @@ endpoints exposed.
 This approach will only work with single word URL parts, and requires that you
 know _all_ of them too, here's a breakdown of what would and wouldn't work.
 
-```
+```javascript
 // Yes - API.getCitiesLondon()
 /cities/london
 
